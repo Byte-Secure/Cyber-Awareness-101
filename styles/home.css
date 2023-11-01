@@ -1,0 +1,62 @@
+/* Reset some default styles for better consistency */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #26282D;
+    color: #fff;
+}
+
+.header {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 32px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
