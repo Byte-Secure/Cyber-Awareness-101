@@ -5,14 +5,14 @@ body, h1, p {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
     background-color: #26282D;
     color: #fff;
 }
 
 .header {
     text-align: center;
-    background-color: #ffffff;
+    background-color: #1565C0; /* Deep blue background color */
     padding: 10px 0;
 }
 
