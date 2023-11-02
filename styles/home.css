@@ -48,12 +48,17 @@ body {
 }
 
 .content {
-    text-align: center; /* Center the content within the .content div */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
     padding: 20px;
+    max-width: 800px;
 }
 
 .content h1 {
     font-size: 72px;
+    max-width: 800px;
 }
 
 .content p {
