@@ -54,6 +54,7 @@ body {
 }
 
 .content h1 {
+    text-align: center;
     font-size: 72px;
     max-width: 800px;
 }
