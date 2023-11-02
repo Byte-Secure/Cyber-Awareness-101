@@ -1,5 +1,5 @@
 /* Reset some default styles for better consistency */
-body, h1, p {
+body, h1, img, hr, span {
     margin: 0;
     padding: 0;
 }
@@ -54,16 +54,16 @@ body {
     align-items: center; /* Center horizontally */
     padding: 20px;
     width: 100%; /* Occupy the entire horizontal space */
-    max-width: 800px;
 }
 
 .content h1 {
     font-size: 72px;
 }
 
-.content p {
+span.about,
+span.info {
     font-size: 16px;
     line-height: 1.5;
     max-width: 600px; /* Limit line length to 600px */
-    word-wrap: break-word; /* Wrap long words onto the next line */
+    overflow-wrap: break-word; /* Wrap long words onto the next line */
 }
