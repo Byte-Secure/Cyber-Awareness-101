@@ -53,16 +53,17 @@ body {
     justify-content: center; /* Center vertically */
     align-items: center; /* Center horizontally */
     padding: 20px;
-    max-width: 800px;
     width: 100%; /* Occupy the entire horizontal space */
+    max-width: 800px;
 }
 
 .content h1 {
     font-size: 72px;
-    max-width: 800px;
 }
 
 .content p {
     font-size: 16px;
     line-height: 1.5;
+    max-width: 600px; /* Limit line length to 600px */
+    word-wrap: break-word; /* Wrap long words onto the next line */
 }
