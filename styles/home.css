@@ -1,18 +1,17 @@
-/* Reset some default styles for better consistency */
-body, h1, img, hr, span {
+body, span {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Playfair Display', serif;
     background-color: #26282D;
-    color: #fff;
+    color: #fff
 }
 
 .header {
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
-    background-color: #000d1a; /* Deep blue background color */
+    background-color: #00000d1a;
     padding: 10px 0;
 }
 
@@ -47,26 +46,34 @@ body {
     color: white;
 }
 
+
 .content {
-    display: flex; /* Use flexbox */
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
     padding: 20px;
-    width: 100%; /* Occupy the entire horizontal space */
+    width: 100%;
 }
 
-span.headline {
-    font-size: 72px;
-    padding: 10px;
+span.opening {
     max-width: 800px;
+    padding: 10px;
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
 }
 
-span.about,
-span.info {
+span.awareness {
+    max-width: 800px;
     font-size: 16px;
     line-height: 1.5;
-    max-width: 600px; /* Limit line length to 600px */
-    overflow-wrap: break-word; /* Wrap long words onto the next line */
     padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+span.about {
+    max-width: 800px;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
 }
